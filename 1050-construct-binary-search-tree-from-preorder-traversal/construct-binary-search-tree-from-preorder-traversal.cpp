@@ -12,7 +12,7 @@
 class Solution {
 public:
     void buildBST(TreeNode* root, TreeNode* newNode){
-        TreeNode* curr = root;
+        TreeNode* curr = root;;
         while(true){
             if(newNode-> val < curr->val){
                 if(curr->left == NULL){
